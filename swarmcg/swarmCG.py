@@ -1,4 +1,4 @@
-#DUMMY MATTIA's COMMENT
+#test #2
 
 # some numpy version have this ufunc warning at import + many packages call numpy and display annoying warnings
 import warnings
@@ -6,6 +6,9 @@ warnings.filterwarnings("ignore")
 import sys, re, random, os, shutil, subprocess, signal, time, contextlib
 import warnings, collections
 from datetime import datetime
+
+#test
+import array
 
 # matplotlib new version has some problems with incorrectly uninstalled files at version upgrade and display a lot of warnings
 # also some numpy version have this ufunc warning at import
